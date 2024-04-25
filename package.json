@@ -1,0 +1,30 @@
+{
+  "name": "aps-buckets-tools",
+  "version": "2.0.0",
+  "description": "A sample that shows how to use the Model Derivative API.",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.5",
+    "cookie-session": "^2.0.0",
+    "ejs": "^3.1.8",
+    "express": "^4.16.3",
+    "forge-apis": "^0.9.6",
+    "formidable": "^3.5.1",
+    "morgan": "^1.10.0",
+    "oauth": "^0.9.14",
+    "request": "^2.88.2",
+    "trim": "^1.0.1",
+    "url": "^0.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/autodesk-platform-services/aps-buckets-tools"
+  },
+  "scripts": {
+    "start": "NODE_ENV=production node start.js",
+    "dev": "node start.js",
+    "nodemon": "nodemon start.js --ignore www/"
+  },
+  "author": "Autodesk Partner Development",
+  "license": "MIT"
+}
